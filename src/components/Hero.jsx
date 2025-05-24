@@ -1,13 +1,15 @@
 function Hero() {
   return (
-    <section>
-      <h1>N Parth Goyal</h1>
-      <h2 className="pt-2 pb-2 mt-2">
-        Full-Stack Developer | Specialized in MERN stack
-      </h2>
-      <a href="#projects" className="btn btn-secondary pt-2 pb-2 mt-4">
-        View My Work
-      </a>
+    <section class="p-5 mb-4 border border-white rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">N Parth Goyal</h1>
+        <h2 class="col-md-113 fs-5">
+          Full-Stack Developer | Specialized in MERN stack
+        </h2>
+        <a class="btn btn-primary btn-lg" type="button" href="#projects">
+          View My Work
+        </a>
+      </div>
     </section>
   );
 }
