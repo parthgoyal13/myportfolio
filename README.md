@@ -8,7 +8,8 @@
 
 # Screen Shots
 
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/31a1fbf9-141a-4384-810f-3fbad71cfd49" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/00fb65a2-4adb-4e80-bec4-b354cad6e218" />
+
 
 # Features
 
