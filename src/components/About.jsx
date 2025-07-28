@@ -10,6 +10,7 @@ function About() {
   };
 
   const openResume = () => {
+    // You can replace this with your actual resume link
     window.open('/resume.pdf', '_blank');
   };
 
