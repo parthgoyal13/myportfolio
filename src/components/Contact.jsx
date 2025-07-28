@@ -1,44 +1,40 @@
+import React from "react";
+
 function Contact() {
   return (
-    <section id="contact" className="py-5">
-      <div className="container">
-        <h2 className="text-center mb-4">Contact</h2>
-        <div className="row justify-content-center text-center">
-          <div className="col-md-3">
-            <div className="card p-3">
-              <h5>GitHub</h5>
-              <a
-                href="https://github.com/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/your-profile
-              </a>
-            </div>
+    <section className="contact-section" id="contact">
+      <div className="contact-container">
+        <h2 className="section-title">Contact Me</h2>
+        <div className="contact-grid">
+          <div className="contact-card">
+            <h3 className="contact-title">Email</h3>
+            <a href="mailto:goyalnparth@gmail.com" className="contact-link">
+              goyalnparth@gmail.com
+            </a>
           </div>
-          <div className="col-md-3">
-            <div className="card p-3">
-              <h5>LinkedIn</h5>
-              <a
-                href="https://linkedin.com/in/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                linkedin.com/in/your-profile
-              </a>
-            </div>
+
+          <div className="contact-card">
+            <h3 className="contact-title">Phone</h3>
+            <a href="tel:+917725972272" className="contact-link">
+              +91 7725972272
+            </a>
           </div>
-          <div className="col-md-3">
-            <div className="card p-3">
-              <h5>Resume</h5>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                Download Resume
-              </a>
-            </div>
+
+          <div className="contact-card">
+            <h3 className="contact-title">LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/nparthgoyal13072001"
+              className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn Profile
+            </a>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
 export default Contact;
