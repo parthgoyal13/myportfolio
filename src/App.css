@@ -1,7 +1,7 @@
 /* App Container */
 .app-container {
   min-height: 100vh;
-  background-color: #f5f1eb;
+  background-color: #0f172a;
   padding: 2rem;
 }
 
@@ -9,28 +9,28 @@
 .browser-frame {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #1e293b;
   border-radius: 16px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #334155;
 }
 
 /* Content Area */
 .content-area {
-  background-color: #ffffff;
+  background-color: #1e293b;
 }
 
 /* React Icon styling */
 .react-icon {
-  color: #d4a574;
-  filter: drop-shadow(0 0 10px rgba(212, 165, 116, 0.3));
+  color: #0ea5e9;
+  filter: drop-shadow(0 0 10px rgba(14, 165, 233, 0.3));
   transition: all 0.3s ease;
 }
 
 .react-icon:hover {
-  color: #b8946f;
-  filter: drop-shadow(0 0 15px rgba(184, 148, 111, 0.5));
+  color: #0284c7;
+  filter: drop-shadow(0 0 15px rgba(2, 132, 199, 0.5));
   transform: scale(1.05);
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
   justify-content: center;
   padding: 80px 32px;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 .hero-container {
@@ -78,7 +78,7 @@
 .hero-projects {
   font-size: 3rem;
   font-weight: 700;
-  color: #64748b;
+  color: #94a3b8;
   text-align: center;
   margin: 0;
 }
@@ -97,7 +97,7 @@
   width: 384px;
   height: 384px;
   border-radius: 50%;
-  background: linear-gradient(145deg, #ffffff, #f1f5f9);
+  background: linear-gradient(145deg, #334155, #1e293b);
   border: 2px solid rgba(212, 165, 116, 0.2);
   box-shadow: 
     0 0 30px rgba(212, 165, 116, 0.1),
@@ -146,7 +146,7 @@
 .hero-greeting {
   font-size: 2rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #e2e8f0;
   margin: 0 0 8px 0;
   position: relative;
   z-index: 10;
@@ -155,7 +155,7 @@
 .hero-subtitle {
   font-size: 1rem;
   font-weight: 600;
-  color: #64748b;
+  color: #94a3b8;
   margin: 0 0 16px 0;
   position: relative;
   z-index: 10;
@@ -164,16 +164,16 @@
 .hero-specialty {
   font-size: 4rem;
   font-weight: 900;
-  color: #d4a574;
+  color: #0ea5e9;
   margin: 0 0 32px 0;
-  text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
+  text-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
   position: relative;
   z-index: 10;
 }
 
 .hero-btn {
-  background: linear-gradient(145deg, #d4a574, #b8946f);
-  border: 1px solid rgba(212, 165, 116, 0.3);
+  background: linear-gradient(145deg, #0ea5e9, #0284c7);
+  border: 1px solid rgba(14, 165, 233, 0.3);
   color: #ffffff;
   padding: 12px 32px;
   border-radius: 25px;
@@ -181,7 +181,7 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
   position: relative;
   z-index: 10;
   display: inline-block;
@@ -191,11 +191,11 @@
 }
 
 .hero-btn:hover {
-  background: linear-gradient(145deg, #b8946f, #a67c52);
+  background: linear-gradient(145deg, #0284c7, #0369a1);
   color: #ffffff;
-  border-color: rgba(212, 165, 116, 0.5);
+  border-color: rgba(14, 165, 233, 0.5);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
 }
 
 .hero-btn:active {
@@ -205,7 +205,7 @@
 /* About Section */
 .about-section {
   padding: 80px 32px;
-  background-color: #f8fafc;
+  background-color: #1e293b;
 }
 
 .about-container {
@@ -220,8 +220,8 @@
 }
 
 .about-card {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  border: 1px solid rgba(212, 165, 116, 0.1);
+  background: linear-gradient(145deg, #334155, #1e293b);
+  border: 1px solid rgba(14, 165, 233, 0.1);
   border-radius: 24px;
   padding: 32px;
   height: 100%;
@@ -233,7 +233,7 @@
 
 .about-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: rgba(14, 165, 233, 0.3);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -246,33 +246,33 @@
 .card-title {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #e2e8f0;
   margin: 0 0 8px 0;
 }
 
 .card-subtitle {
   font-size: 1rem;
   font-weight: 700;
-  color: #64748b;
+  color: #94a3b8;
   margin: 0 0 16px 0;
 }
 
 .card-text {
   font-size: 0.875rem;
   font-weight: 500;
-  color: #64748b;
+  color: #94a3b8;
   line-height: 1.6;
   margin: 0 0 32px 0;
 }
 
 .card-btn {
-  background: linear-gradient(145deg, #d4a574, #b8946f);
-  border: 1px solid rgba(212, 165, 116, 0.2);
+  background: linear-gradient(145deg, #0369a1, #0ea5e9);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   color: #ffffff;
   padding: 8px 24px;
   border-radius: 20px;
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   display: inline-block;
@@ -284,9 +284,9 @@
 }
 
 .card-btn:hover {
-  background: linear-gradient(145deg, #b8946f, #a67c52);
+  background: linear-gradient(145deg, #0ea5e9, #0284c7);
   color: #ffffff;
-  border-color: rgba(212, 165, 116, 0.4);
+  border-color: rgba(14, 165, 233, 0.4);
   transform: translateY(-2px);
 }
 
@@ -299,7 +299,7 @@
   text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #e2e8f0;
   margin-bottom: 64px;
   position: relative;
 }
@@ -312,14 +312,14 @@
   transform: translateX(-50%);
   width: 64px;
   height: 4px;
-  background: linear-gradient(90deg, rgba(212, 165, 116, 0.2), rgba(212, 165, 116, 0.4));
+  background: linear-gradient(90deg, rgba(14, 165, 233, 0.2), rgba(14, 165, 233, 0.4));
   border-radius: 2px;
 }
 
 /* Projects Section */
 .projects-section {
   padding: 80px 32px;
-  background-color: #ffffff;
+  background-color: #0f172a;
 }
 
 .projects-container {
@@ -334,8 +334,8 @@
 }
 
 .project-card {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  border: 1px solid rgba(212, 165, 116, 0.1);
+  background: linear-gradient(145deg, #334155, #1e293b);
+  border: 1px solid rgba(14, 165, 233, 0.1);
   border-radius: 24px;
   height: 100%;
   transition: all 0.3s ease;
@@ -344,7 +344,7 @@
 
 .project-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: rgba(14, 165, 233, 0.3);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -358,14 +358,14 @@
 .project-title {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #e2e8f0;
   margin-bottom: 16px;
 }
 
 .project-description {
   font-size: 0.875rem;
   font-weight: 500;
-  color: #64748b;
+  color: #94a3b8;
   line-height: 1.6;
   margin-bottom: 24px;
   flex-grow: 1;
@@ -377,9 +377,9 @@
 
 .tech-badge {
   display: inline-block;
-  background: linear-gradient(145deg, #f1f5f9, #e2e8f0);
-  border: 1px solid rgba(212, 165, 116, 0.2);
-  color: #d4a574;
+  background: linear-gradient(145deg, #334155, #1e293b);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  color: #0ea5e9;
   padding: 4px 12px;
   border-radius: 15px;
   font-size: 0.75rem;
@@ -389,9 +389,9 @@
 }
 
 .tech-badge:hover {
-  background: linear-gradient(145deg, #d4a574, #b8946f);
+  background: linear-gradient(145deg, #0ea5e9, #0284c7);
   color: #ffffff;
-  border-color: rgba(212, 165, 116, 0.4);
+  border-color: rgba(14, 165, 233, 0.4);
 }
 
 .project-actions {
@@ -402,13 +402,13 @@
 
 .project-btn {
   flex: 1;
-  background: linear-gradient(145deg, #d4a574, #b8946f);
-  border: 1px solid rgba(212, 165, 116, 0.2);
+  background: linear-gradient(145deg, #0369a1, #0ea5e9);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 15px;
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
   text-align: center;
@@ -421,9 +421,9 @@
 }
 
 .project-btn:hover {
-  background: linear-gradient(145deg, #b8946f, #a67c52);
+  background: linear-gradient(145deg, #0ea5e9, #0284c7);
   color: #ffffff;
-  border-color: rgba(212, 165, 116, 0.4);
+  border-color: rgba(14, 165, 233, 0.4);
   transform: translateY(-2px);
   text-decoration: none;
 }
@@ -435,7 +435,7 @@
 /* Technologies Section */
 .technologies-section {
   padding: 80px 32px;
-  background-color: #f8fafc;
+  background-color: #1e293b;
 }
 
 .technologies-container {
@@ -450,8 +450,8 @@
 }
 
 .tech-category {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  border: 1px solid rgba(212, 165, 116, 0.1);
+  background: linear-gradient(145deg, #334155, #1e293b);
+  border: 1px solid rgba(14, 165, 233, 0.1);
   border-radius: 24px;
   padding: 32px;
   text-align: center;
@@ -460,14 +460,14 @@
 
 .tech-category:hover {
   transform: translateY(-8px);
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: rgba(14, 165, 233, 0.3);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .tech-category-title {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #e2e8f0;
   margin-bottom: 32px;
 }
 
@@ -478,11 +478,11 @@
 }
 
 .tech-list li {
-  color: #64748b;
+  color: #94a3b8;
   font-size: 1rem;
   font-weight: 600;
   padding: 8px 0;
-  border-bottom: 1px solid rgba(212, 165, 116, 0.1);
+  border-bottom: 1px solid rgba(14, 165, 233, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -491,14 +491,14 @@
 }
 
 .tech-list li:hover {
-  color: #d4a574;
+  color: #0ea5e9;
   transform: translateX(8px);
 }
 
 /* Contact Section */
 .contact-section {
   padding: 80px 32px;
-  background-color: #ffffff;
+  background-color: #0f172a;
 }
 
 .contact-container {
@@ -515,8 +515,8 @@
 }
 
 .contact-card {
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  border: 1px solid rgba(212, 165, 116, 0.1);
+  background: linear-gradient(145deg, #334155, #1e293b);
+  border: 1px solid rgba(14, 165, 233, 0.1);
   border-radius: 24px;
   padding: 32px;
   text-align: center;
@@ -526,19 +526,19 @@
 
 .contact-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: rgba(14, 165, 233, 0.3);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .contact-title {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #e2e8f0;
   margin-bottom: 16px;
 }
 
 .contact-link {
-  color: #64748b;
+  color: #94a3b8;
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 600;
@@ -546,7 +546,7 @@
 }
 
 .contact-link:hover {
-  color: #d4a574;
+  color: #0ea5e9;
   text-decoration: none;
 }
 
