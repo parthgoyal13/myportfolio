@@ -244,24 +244,24 @@
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #e2e8f0;
   margin: 0 0 8px 0;
 }
 
 .card-subtitle {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #94a3b8;
   margin: 0 0 16px 0;
 }
 
 .card-text {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #94a3b8;
-  line-height: 1.6;
+  line-height: 1.7;
   margin: 0 0 32px 0;
 }
 
@@ -297,7 +297,7 @@
 /* Section Titles */
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #e2e8f0;
   margin-bottom: 64px;
@@ -356,17 +356,17 @@
 }
 
 .project-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #e2e8f0;
   margin-bottom: 16px;
 }
 
 .project-description {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #94a3b8;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 24px;
   flex-grow: 1;
 }
@@ -479,7 +479,7 @@
 
 .tech-list li {
   color: #94a3b8;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 600;
   padding: 8px 0;
   border-bottom: 1px solid rgba(14, 165, 233, 0.1);
@@ -531,7 +531,7 @@
 }
 
 .contact-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #e2e8f0;
   margin-bottom: 16px;
@@ -540,7 +540,7 @@
 .contact-link {
   color: #94a3b8;
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 600;
   transition: all 0.3s ease;
 }

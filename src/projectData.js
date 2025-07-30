@@ -1,5 +1,22 @@
 const projects = [
   {
+    name: "ITI College Admin Panel",
+    description:
+      "A comprehensive web-based administration system for ITI College, designed to manage students, teachers, fees, payments, and institutional data efficiently.",
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Tailwind CSS ",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Vercel",
+      "Axios",
+    ],
+    demoLink: "https://college-admin-panel.vercel.app/",
+    sourceCodeLink: "https://github.com/parthgoyal13/college-admin-panel",
+  },
+  {
     name: "E-Commerce App",
     description:
       "A full-featured online shopping platform built with the MERN stack. Users can browse products, filter by category, price, and ratings, manage a cart and wishlist, handle addresses, and place orders. Includes secure authentication and profile management.",
