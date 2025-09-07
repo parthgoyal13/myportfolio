@@ -1,6 +1,6 @@
 import React from "react";
 import ReactIcon from "./ReactIcon";
-
+import resume from "../assets/parth_new_CV.pdf";
 function About() {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -10,7 +10,7 @@ function About() {
   };
 
   const openResume = () => {
-    window.open("/resume.pdf", "_blank");
+    window.open(resume, "_blank");
   };
 
   return (
